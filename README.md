@@ -37,4 +37,4 @@ Buka browser dan akses `http://localhost:81`
 - Docker + Nginx
 
 ## Production Preview
-
+https://shiny-pony-11fb09.netlify.app/
