@@ -1,6 +1,6 @@
 import { AppSidebar } from '@/components/layout/app-sidebar'
 import { SidebarInset, SidebarProvider } from '@/components/ui/sidebar'
-import { cn } from '@/lib/utils'
+
 import useGetUser from '@/query/use-get-user'
 import { useAuth } from '@/stores/auth-store'
 import { createFileRoute, Outlet, useNavigate } from '@tanstack/react-router'
@@ -31,7 +31,7 @@ function AuthenticatedLayout() {
     if (!user && !accessToken) {
       navigate({ to: '/' })
     }
-  }, [userData, user, setUser])
+  }, [userData, user, setUser, navigate, accessToken])
 
 
   return (
