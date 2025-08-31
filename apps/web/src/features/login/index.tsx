@@ -14,7 +14,7 @@ export default function Login() {
         
         <div className="relative hidden lg:block ">
           <img
-            src="/assets/illustration.png"
+            src="/assets/illustration.svg"
             alt="Login Illustration"
             className="absolute inset-0 h-[103%] w-full object-cover"
           />
