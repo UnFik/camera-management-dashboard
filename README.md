@@ -1,7 +1,7 @@
 # Asta Computer Vision
 
 ## Cara Menjalankan Project
-### 1. Menggunakan Bun
+### 1. Menggunakan Bun (Development)
 
 ```bash
 # Install dependencies
@@ -13,7 +13,7 @@ bun dev
 
 Buka browser dan akses `http://localhost:3001`
 
-### 2. Menggunakan Docker
+### 2. Menggunakan Docker (Production)
 
 ```bash
 # unix based
